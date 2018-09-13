@@ -47,5 +47,5 @@ void init_Shield (void) {
     TRISEbits.RE0 = 0;
     TRISEbits.RE1 = 0;
     TRISEbits.RE2 = 0;
-    ei() :
+    ei();
 }
